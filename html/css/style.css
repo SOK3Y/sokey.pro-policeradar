@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    user-select: none;
+}
+
+span {
+    font-size: 1.4em;
+}
+
+.radarContainer {
+    display: none;
+    border-radius: .25vh;
+    background-color: rgba(10, 10, 10, .85);
+    position: absolute;
+    bottom: 13.5em;
+    right: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.carInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.carPlate {
+    border-radius: .25vh;
+    background-color: rgba(0, 149, 255, 0.9);
+    width: 8em;
+    font-size: 1.5em;
+    padding: .5em;
+    margin: .5em;
+}
+
+.carSpeed {
+    padding-bottom: 1em;
+}
