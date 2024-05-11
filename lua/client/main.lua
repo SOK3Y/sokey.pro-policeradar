@@ -86,9 +86,7 @@ function toggleRadar()
         local ped = PlayerPedId()
         local veh = GetVehiclePedIsIn(ped, false)
         local name = string.lower(GetDisplayNameFromVehicleModel(GetEntityModel(veh)))
-
         local vehiclesList = Config.VehicleList
-
         if radar.shown then
             SendNUIMessage({
                 type = "toggle",
