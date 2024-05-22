@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'sokey.pro (sokey)'
+author 'X-CODE (sokey)'
 description 'Police Radar'
 version '1.0.0'
 
